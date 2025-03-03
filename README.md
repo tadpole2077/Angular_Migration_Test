@@ -1,6 +1,23 @@
 # TestApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+The V16 angular template project was upgraded to Angular V17.x.
+
+Purpose: Evaluation of Angular CLI Migration Issue 29661 
+https://github.com/angular/angular-cli/issues/29661#issuecomment-2688197220
+
+Executing the following migration update, or upgrading to Angular V18 + apply the application builder migration
+CLI >> ng update @angular/cli --name use-application-builder
+
+Results in:
+✖ Migration failed: Path "tsconfig.server.json" does not exist.
+
+Background:
+The angular.json "server" settings were originally defined within the default 'Visual Studio Angular Full-stack Template' from 2021
+This template used V8 of angular, and over the years was upgraded to Angular V18 today.  The original "server" settings were never used, or changed as per Repo.
+
+
+
 
 ## Development server
 
