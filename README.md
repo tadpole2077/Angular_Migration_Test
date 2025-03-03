@@ -17,6 +17,18 @@ The angular.json "server" settings were originally defined within the default 'V
 This template used V8 of angular, and over the years was upgraded to Angular V18 today.  The original "server" settings were never used, or changed as per Repo.
 
 
+Error log:
+[error] Error: Path "tsconfig.server.json" does not exist.
+    at HostTree.readText (C:\Users\[user]\AppData\Local\Temp\angular-cli-packages-enN7Z7\node_modules\@angular-devkit\schematics\src\tree\host-tree.js:220:19)
+    at new JSONFile (C:\Users\[user]\AppData\Local\Temp\angular-cli-packages-enN7Z7\node_modules\@schematics\angular\utility\json-file.js:23:34)
+    at updateBuildTarget (C:\Users\[user]\AppData\Local\Temp\angular-cli-packages-enN7Z7\node_modules\@schematics\angular\migrations\use-application-builder\migration.js:83:28)
+    at updateBuildTarget.next (<anonymous>)
+    at C:\Users\[user]\AppData\Local\Temp\angular-cli-packages-enN7Z7\node_modules\@schematics\angular\migrations\use-application-builder\migration.js:129:19
+    at C:\Users\[user]\AppData\Local\Temp\angular-cli-packages-enN7Z7\node_modules\@schematics\angular\utility\workspace.js:64:30
+    at async callRuleAsync (C:\Users\[user]\AppData\Local\Temp\angular-cli-packages-enN7Z7\node_modules\@angular-devkit\schematics\src\rules\call.js:80:18)
+
+
+
 
 
 ## Development server
